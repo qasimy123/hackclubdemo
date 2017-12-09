@@ -1,0 +1,29 @@
+button {
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 10px;
+    border:0;
+    transition: all 1s;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #87ff99;
+    transform: scale(1.1) translateY(-20px);
+}
+
+button:focus {
+    outline: 0;
+}
+
+
+
+
+body {
+    margin-top: 20px;
+    text-align: center;
+    font-family: monospace;
+}
+
